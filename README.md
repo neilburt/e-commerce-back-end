@@ -2,7 +2,7 @@
 
 ## Description  
 
-This command line-based Node.js app allows the user to view and manage employee information by selecting functions from the menu and answering questions in the terminal using the Inquirer package. The user interacts with an employee database via the MySQL package that reads, updates, and alters information as desired. 
+This is a built-out back end for a mock e-commerce site. It is a complete database that spans multiple tables and is fully accessible and interactive via API clients and browsers. The routes and models are achieved here through the MySQL2, Sequelize, and Express Node.js packages.
 
 ## Table of Contents
 - ### [Installation](#installation)
@@ -14,24 +14,24 @@ This command line-based Node.js app allows the user to view and manage employee 
 
 ## Installation  
 
-MySQL and a related CLI/GUI are needed (Workbench was used for development) along with Node.js. Open the terminal, run 'npm install' and then 'node index.js' from the directory on the command line.  
+MySQL and a related CLI/GUI are needed (Workbench was used for development) along with Node.js. Use the provided schema to set up the database through MySQL, open the terminal, run 'npm install' from the root level of the project and then 'npm run seed' both on the command line.
 
 ## Usage  
 
-Once the application is called by typing "node index.js" in the terminal, the user simply selects a desired function from the main menu and types answers to questions when prompted.  
+Once the application is called by running 'npm start' in the terminal, the user can view the database information from a browser through the local host channel via the various API routes or access and interact with the database using their favorite API client software. Insomnia was used in this project for demonstration.  
 
-Check out this [demo video](https://drive.google.com/file/d/19K5MZBIZtR-hASK9Iqdd1FWEI6M-0G36/view?usp=sharing) to see it in action.  
+Check out this [demo video](https://drive.google.com/file/d/1OvE8hN3y9L3FK_XZMHcRGQlqFrs0QuQP/view?usp=sharing) to see the app in action.  
 
 ## Screenshots  
-![Screenshot of E-Commerce Back End being used in VS Code](./assets/images/screenshot.jpg)  
+![Screenshot of E-Commerce Back End database being built in MySQL Workbench](./assets/images/screenshot.jpg)  
 
 ---  
 
-![Screenshot of E-Commerce Back End being used in VS Code further along](./assets/images/screenshot2.jpg)  
+![Screenshot of E-Commerce Back End being seeded and started from VS Code terminal](./assets/images/screenshot2.jpg)  
 
 ---  
 
-![Screenshot of E-Commerce Back End finished in VS Code](./assets/images/screenshot3.jpg)  
+![Screenshot of E-Commerce Back End database being interacted with via Insomnia API client](./assets/images/screenshot3.jpg)  
 
 ## Contributing  
 
